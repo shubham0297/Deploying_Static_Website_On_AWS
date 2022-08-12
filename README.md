@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
     <div align="center">
-    <u><h3 align="center">DEPLOY STATIC WEBSITE ON AWS </h3></u>
+    <u><h2 align="center">DEPLOY STATIC WEBSITE ON AWS </h3></u>
     </div>
 <br>
 
@@ -23,12 +23,7 @@
         <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 <br>
@@ -48,10 +43,9 @@ The files included are:
 3. /vendor - Bootssrap CSS framework, Font, and JavaScript libraries needed for the website to function.
 4. /css - CSS files for the website.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![AWS][AWS_LOGO]][AWS_URL]
 * [![HTML][HTML_LOGO]][HTML_URL]
@@ -67,7 +61,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Here are the steps to successfully finish this project. 
+Here are the steps needed to successfully finish this project. 
 
 ### Prerequisites
 
@@ -75,13 +69,13 @@ Here are the steps to successfully finish this project.
 
 ### Steps
 
-1. <u>Creating S3 Bucket.</u>
+1. ***Creating S3 Bucket.***
     * In AWS Management Console, search for S3 service. 
     * Create a new S3 bucket.
     * In the Bucket settings for <b>*Block Public Access section*</b>, uncheck the "Block all public access". It will enable the public access to the bucket objects via the S3 object URL.![Bucket_access](/img/for_readme/2.%20Bucket_Access.png)
-    > **Note** - We are allowing the public access to the bucket contents because we are going to host a static website in this bucket.<b>*Hosting requires the content should be publicly readable.*</b> 
+    > **Note** - We are allowing the public access to the bucket contents because we are going to host a static website in this bucket. <b>*Hosting requires the content should be publicly readable.*</b> 
     * Click **Next** to create the bucket.
-2. <u>Creating S3 Bucket.</u>
+2. ***Creating S3 Bucket.***
     * Clone this Github Repository.
     * Open the S3 bucket.
     * Click on **Upload** button and upload all the files including:
@@ -89,7 +83,7 @@ Here are the steps to successfully finish this project.
         * css folder
         * vendors folder
         * img folder
-3. <u>Secure Bucket via IAM</u>
+3. ***Secure Bucket via IAM***
     * Click on <b> Permissions </b> Tab 
     * Enter the following in the <b>*Bucket Policy* </b> section.
     ```
@@ -106,16 +100,16 @@ Here are the steps to successfully finish this project.
             ]
         }
     ```
-4. <u>Configuring S3 bucket</u>
+4. ***Configuring S3 bucket***
     * Go to the **Properties** Tab and go to the **Static Website Hosting** section.
     * Click on <b>Edit</b> button and enable <b>Static Website Hosting</b>
     * Set the default home page (index.html) and error page for the website.![Static_Website_Hosting](/img/for_readme/3.%20Static_Website_Hosting.png)
     * You should see the website endpoint under the Properties section now. ![Website_endpoint](img/for_readme/4.%20Website_Endpoint.png)
 
-5. <u>Distribute Website via CloudFront</u>
+5. ***Distribute Website via CloudFront***
     * Search for <b>CloudFront Service</b> in the AWS console.
     * Create a CloudFront Distribution.
-    * Use the following details to create a distribution:
+    * Use the following details to create a distribution:<br>
 
     Field | Value |
     ---|---|
@@ -123,7 +117,7 @@ Here are the steps to successfully finish this project.
     Origin > Enable Origin Shield | No
     Default cache behavior | Use default settings
     Cache key and origin requests | Use default settings
-
+ 
     ![CF_Setting1](/img/for_readme/5.%20CloudFront_Setting_1.png)
     ![CF_Setting2](/img/for_readme/6.%20CloudFront_Setting_2.png)
 
@@ -132,11 +126,22 @@ Here are the steps to successfully finish this project.
     * Once the status of your distribution changes from "In Progress" to "Deployed", copy the endpoint URL for your CloudFront distribution found in the "Domain Name" column.![CF_Link](/img/for_readme/7.%20CF_Link.png)
 
 
-6. <u>Accessing the Website</u>
+6. ***Accessing the Website***
     * The website can be accessed using the following links :
         * <b>Cloudfront Link - [dpl3a8z9pqhdf.cloudfront.net](https://dpl3a8z9pqhdf.cloudfront.net)</b>
         * <b>Bucket Website Endpoint - [shubhamkandwal-static-website.s3.amazonaws.com](https://shubhamkandwal-static-website.s3.amazonaws.com)</b>
         * <b>S3 Object endpoint URL - [shubhamkandwal-static-website.s3.amazonaws.com/index.html ](https://shubhamkandwal-static-website.s3.amazonaws.com/index.html)</b>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Name: Shubham Kandwal  
+Email: shubham.0297@yahoo.in
+Project Link: [Deploying_Static_Website_On_AWS](https://github.com/shubham0297/Deploying_Static_Website_On_AWS#prerequisites)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
