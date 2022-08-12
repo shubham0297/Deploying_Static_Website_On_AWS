@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
     <div align="center">
-    <u><h2 align="center">DEPLOY STATIC WEBSITE ON AWS </h3></u>
+    <u><h2 align="center">DEPLOY STATIC WEBSITE ON AWS </h2></u>
     </div>
 <br>
 
