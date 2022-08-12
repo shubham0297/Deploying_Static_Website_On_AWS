@@ -138,7 +138,7 @@ Here are the steps needed to successfully finish this project.
 ## Contact
 
 Name: Shubham Kandwal  
-Email: shubham.0297@yahoo.in
+Email: shubham.0297@yahoo.in  
 Project Link: [Deploying_Static_Website_On_AWS](https://github.com/shubham0297/Deploying_Static_Website_On_AWS#prerequisites)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
