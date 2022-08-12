@@ -128,8 +128,8 @@ Here are the steps needed to successfully finish this project.
 
 6. ***Accessing the Website***
     * The website can be accessed using the following links :
-        * <b>Cloudfront Link - [dpl3a8z9pqhdf.cloudfront.net](https://dpl3a8z9pqhdf.cloudfront.net)</b>
-        * <b>Bucket Website Endpoint - [shubhamkandwal-static-website.s3.amazonaws.com](https://shubhamkandwal-static-website.s3.amazonaws.com)</b>
+        * <b>Cloudfront Link - [d3ke9dlw1ca2mm.cloudfront.net](https://d3ke9dlw1ca2mm.cloudfront.net)</b>
+        * <b>Bucket Website Endpoint - [shubhamkandwal-static-website.s3.amazonaws.com](http://shubhamkandwal-static-website.s3-website-us-east-1.amazonaws.com/)</b>
         * <b>S3 Object endpoint URL - [shubhamkandwal-static-website.s3.amazonaws.com/index.html ](https://shubhamkandwal-static-website.s3.amazonaws.com/index.html)</b>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
