@@ -9,12 +9,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <!-- <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul> -->
-    </li>
+    <li> <a href="#about-the-project">About The Project</a> </li>
     <li><a href="#built-with">Built With</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -139,7 +134,7 @@ Here are the steps needed to successfully finish this project.
 
 Name: Shubham Kandwal  
 Email: shubham.0297@yahoo.in  
-Project Link: [Deploying_Static_Website_On_AWS](https://github.com/shubham0297/Deploying_Static_Website_On_AWS#prerequisites)
+Project Link: [Deploying_Static_Website_On_AWS](https://github.com/shubham0297/Deploying_Static_Website_On_AWS)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
